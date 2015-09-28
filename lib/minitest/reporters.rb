@@ -75,3 +75,5 @@ module Minitest
     end
   end
 end
+
+Minitest::Reporters.use! [Minitest::Reporters::KataReporter.new]
